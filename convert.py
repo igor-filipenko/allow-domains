@@ -27,7 +27,7 @@ DigitalOceanSubnets = 'Subnets/IPv4/digitalocean.lst'
 CloudfrontSubnets = 'Subnets/IPv4/cloudfront.lst'
 RobloxSubnets = 'Subnets/IPv4/roblox.lst'
 ExcludeServices = {"telegram.lst", "cloudflare.lst", "google_ai.lst", "google_play.lst", 'hetzner.lst', 'ovh.lst', 'digitalocean.lst', 'cloudfront.lst', 'hodca.lst', 'roblox.lst'}
-# Do not exclude
+# Do not exclude any
 ExcludeServices = {}
 
 def raw(src, out):
@@ -448,7 +448,7 @@ if __name__ == '__main__':
     removeDomains = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app' }
     removeDomainsMikrotik = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 'showip.net' }
     removeDomainsKvas = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 't.co', 'ua' }
-    # Do not exclude
+    # Do not exclude any
     removeDomains = {}
     removeDomainsMikrotik = {}
     removeDomainsKvas = {}
