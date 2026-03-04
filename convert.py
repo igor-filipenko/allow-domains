@@ -26,8 +26,8 @@ OVHSubnets = 'Subnets/IPv4/ovh.lst'
 DigitalOceanSubnets = 'Subnets/IPv4/digitalocean.lst'
 CloudfrontSubnets = 'Subnets/IPv4/cloudfront.lst'
 RobloxSubnets = 'Subnets/IPv4/roblox.lst'
-ExcludeServices = {"telegram.lst", "cloudflare.lst", "google_ai.lst", "google_play.lst", 'hetzner.lst', 'ovh.lst', 'digitalocean.lst', 'cloudfront.lst', 'hodca.lst', 'roblox.lst'}
 # Do not exclude any
+# ExcludeServices = {"telegram.lst", "cloudflare.lst", "google_ai.lst", "google_play.lst", 'hetzner.lst', 'ovh.lst', 'digitalocean.lst', 'cloudfront.lst', 'hodca.lst', 'roblox.lst'}
 ExcludeServices = {}
 
 def raw(src, out):
@@ -58,7 +58,8 @@ def raw(src, out):
         for name in domains:
             file.write(f'{name}\n')
 
-def dnsmasq(src, out, remove={'google.com'}):
+def dnsmasq(src, out, remove={'fake.com'}):
+    print(f"From {src} to {out} excluding {remove}")
     domains = set()
     files = []
 
@@ -80,12 +81,13 @@ def dnsmasq(src, out, remove={'google.com'}):
                             if not tldextract.extract(line).domain and tldextract.extract(line).suffix:
                                 domains.add("." + tldextract.extract(line.rstrip()).suffix)
 
-    domains = domains - remove
+    #domains = domains - remove
     domains = sorted(domains)
 
     with open(f'{out}-dnsmasq-nfset.lst', 'w') as file:
         for name in domains:
             file.write(f'nftset=/{name}/4#inet#fw4#vpn_domains\n')
+        print(f"Wrote to {file}!")
 
     with open(f'{out}-dnsmasq-ipset.lst', 'w') as file:
         for name in domains:
@@ -445,18 +447,19 @@ if __name__ == '__main__':
     # Russia inside
     Path("Russia").mkdir(parents=True, exist_ok=True)
 
-    removeDomains = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app' }
-    removeDomainsMikrotik = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 'showip.net' }
-    removeDomainsKvas = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 't.co', 'ua' }
+#    removeDomains = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app' }
+#    removeDomainsMikrotik = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 'showip.net' }
+#    removeDomainsKvas = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 't.co', 'ua' }
     # Do not exclude any
-    removeDomains = {}
-    removeDomainsMikrotik = {}
-    removeDomainsKvas = {}
+    removeDomains = {'fake.com'}
+    removeDomainsMikrotik = {'fake.com'}
+    removeDomainsKvas = {'fake.com'}
 
     inside_lists = [rusDomainsInsideCategories, rusDomainsInsideServices]
-
+    print(f"Using list {inside_lists}")
     raw(inside_lists, rusDomainsInsideOut)
     dnsmasq(inside_lists, rusDomainsInsideOut, removeDomains)
+    exit(0)
     clashx(inside_lists, rusDomainsInsideOut, removeDomains)
     kvas(inside_lists, rusDomainsInsideOut, removeDomainsKvas)
     mikrotik_fwd(inside_lists, rusDomainsInsideOut, removeDomainsMikrotik)
