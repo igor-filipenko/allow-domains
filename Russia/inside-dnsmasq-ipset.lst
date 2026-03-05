@@ -539,6 +539,7 @@ ipset=/iptv.online/vpn_domains
 ipset=/is.fi/vpn_domains
 ipset=/istories.media/vpn_domains
 ipset=/itch.io/vpn_domains
+ipset=/itdog.info/vpn_domains
 ipset=/itninja.com/vpn_domains
 ipset=/itsmycity.ru/vpn_domains
 ipset=/ixxx.com/vpn_domains

@@ -537,6 +537,7 @@
 /ip dns static add name=is.fi type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=istories.media type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=itch.io type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=itdog.info type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=itninja.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=itsmycity.ru type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=ixxx.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
