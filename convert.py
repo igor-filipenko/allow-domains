@@ -58,8 +58,7 @@ def raw(src, out):
         for name in domains:
             file.write(f'{name}\n')
 
-def dnsmasq(src, out, remove={'fake.com'}):
-    print(f"From {src} to {out} excluding {remove}")
+def dnsmasq(src, out, remove=set()):
     domains = set()
     files = []
 
@@ -81,13 +80,12 @@ def dnsmasq(src, out, remove={'fake.com'}):
                             if not tldextract.extract(line).domain and tldextract.extract(line).suffix:
                                 domains.add("." + tldextract.extract(line.rstrip()).suffix)
 
-    #domains = domains - remove
+    domains = domains - remove
     domains = sorted(domains)
 
     with open(f'{out}-dnsmasq-nfset.lst', 'w') as file:
         for name in domains:
             file.write(f'nftset=/{name}/4#inet#fw4#vpn_domains\n')
-        print(f"Wrote to {file}!")
 
     with open(f'{out}-dnsmasq-ipset.lst', 'w') as file:
         for name in domains:
@@ -447,19 +445,13 @@ if __name__ == '__main__':
     # Russia inside
     Path("Russia").mkdir(parents=True, exist_ok=True)
 
-#    removeDomains = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app' }
-#    removeDomainsMikrotik = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 'showip.net' }
-#    removeDomainsKvas = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 't.co', 'ua' }
-    # Do not exclude any
-    removeDomains = {'fake.com'}
-    removeDomainsMikrotik = {'fake.com'}
-    removeDomainsKvas = {'fake.com'}
+    removeDomains = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app' }
+    removeDomainsMikrotik = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 'showip.net' }
+    removeDomainsKvas = {'google.com', 'googletagmanager.com', 'github.com', 'githubusercontent.com', 'githubcopilot.com', 'microsoft.com', 'cloudflare-dns.com', 'parsec.app', 't.co', 'ua' }
 
     inside_lists = [rusDomainsInsideCategories, rusDomainsInsideServices]
-    print(f"Using list {inside_lists}")
     raw(inside_lists, rusDomainsInsideOut)
-    dnsmasq(inside_lists, rusDomainsInsideOut, removeDomains)
-    exit(0)
+    dnsmasq(inside_lists, rusDomainsInsideOut, set())
     clashx(inside_lists, rusDomainsInsideOut, removeDomains)
     kvas(inside_lists, rusDomainsInsideOut, removeDomainsKvas)
     mikrotik_fwd(inside_lists, rusDomainsInsideOut, removeDomainsMikrotik)
