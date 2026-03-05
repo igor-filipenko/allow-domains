@@ -355,6 +355,7 @@ ipset=/glavred.info/vpn_domains
 ipset=/glavred.net/vpn_domains
 ipset=/global.fncstatic.com/vpn_domains
 ipset=/glpals.com/vpn_domains
+ipset=/gmail.com/vpn_domains
 ipset=/godaddy.com/vpn_domains
 ipset=/gofile.io/vpn_domains
 ipset=/gofundme.com/vpn_domains

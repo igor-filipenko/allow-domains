@@ -355,6 +355,7 @@
 /ip dns static add name=glavred.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=global.fncstatic.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=glpals.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=gmail.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=godaddy.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=gofile.io type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=gofundme.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
