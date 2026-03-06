@@ -859,6 +859,7 @@ DOMAIN-SUFFIX,prod-lt-playstoregatewayadapter-pa.googleapis.com
 DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
 DOMAIN-SUFFIX,proekt.media
 DOMAIN-SUFFIX,profitwell.com
+DOMAIN-SUFFIX,projectlombok.org
 DOMAIN-SUFFIX,pronouns.page
 DOMAIN-SUFFIX,prosleduetmedia.com
 DOMAIN-SUFFIX,prostovpn.org
@@ -889,7 +890,6 @@ DOMAIN-SUFFIX,reactflow.dev
 DOMAIN-SUFFIX,realbooru.com
 DOMAIN-SUFFIX,realist.online
 DOMAIN-SUFFIX,recraft.ai
-DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,reddxxx.com
 DOMAIN-SUFFIX,redgifs.com
 DOMAIN-SUFFIX,redis.io
