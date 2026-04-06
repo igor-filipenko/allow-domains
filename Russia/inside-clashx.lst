@@ -229,6 +229,10 @@ DOMAIN-SUFFIX,crunchyroll.com
 DOMAIN-SUFFIX,csskor.ill.in.ua
 DOMAIN-SUFFIX,cub.red
 DOMAIN-SUFFIX,currenttime.tv
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursorinfo.co.il
 DOMAIN-SUFFIX,customfw.xyz
 DOMAIN-SUFFIX,cvedetails.com
@@ -457,6 +461,7 @@ DOMAIN-SUFFIX,habr.com
 DOMAIN-SUFFIX,hackernoon.com
 DOMAIN-SUFFIX,hackmd.io
 DOMAIN-SUFFIX,halooglasi.com
+DOMAIN-SUFFIX,hangouts.googleapis.com
 DOMAIN-SUFFIX,hashicorp.com
 DOMAIN-SUFFIX,haydaygame.com
 DOMAIN-SUFFIX,hbomax.com
@@ -658,6 +663,9 @@ DOMAIN-SUFFIX,mediazona.ca
 DOMAIN-SUFFIX,medicalnewstoday.com
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,meduza.io
+DOMAIN-SUFFIX,meet.google.com
+DOMAIN-SUFFIX,meetings.clients6.google.com
+DOMAIN-SUFFIX,meetings.googleapis.com
 DOMAIN-SUFFIX,mega.nz
 DOMAIN-SUFFIX,megapeer.ru
 DOMAIN-SUFFIX,megapeer.vip
@@ -859,6 +867,7 @@ DOMAIN-SUFFIX,prod-lt-playstoregatewayadapter-pa.googleapis.com
 DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
 DOMAIN-SUFFIX,proekt.media
 DOMAIN-SUFFIX,profitwell.com
+DOMAIN-SUFFIX,projectlombok.org
 DOMAIN-SUFFIX,pronouns.page
 DOMAIN-SUFFIX,prosleduetmedia.com
 DOMAIN-SUFFIX,prostovpn.org
@@ -1058,6 +1067,7 @@ DOMAIN-SUFFIX,strana.news
 DOMAIN-SUFFIX,strana.today
 DOMAIN-SUFFIX,strapi.io
 DOMAIN-SUFFIX,strava.com
+DOMAIN-SUFFIX,stream.meet.google.com
 DOMAIN-SUFFIX,succurity.com
 DOMAIN-SUFFIX,suggestqueries.google.com
 DOMAIN-SUFFIX,supercell.com
@@ -1138,6 +1148,7 @@ DOMAIN-SUFFIX,tiptop-vpn.com
 DOMAIN-SUFFIX,tmdb-image-prod.b-cdn.net
 DOMAIN-SUFFIX,tmdb.com
 DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,ton.org
 DOMAIN-SUFFIX,toolbox.app
 DOMAIN-SUFFIX,torproject.org
 DOMAIN-SUFFIX,torrenteditor.com

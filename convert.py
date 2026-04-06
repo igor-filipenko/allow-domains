@@ -23,7 +23,9 @@ SUBNET_SERVICES = [
     'cloudflare', 'hetzner', 'ovh', 'digitalocean',
     'cloudfront', 'roblox', 'google_meet',
 ]
-ExcludeServices = {"telegram.lst", "cloudflare.lst", "google_ai.lst", "google_play.lst", 'hetzner.lst', 'ovh.lst', 'digitalocean.lst', 'cloudfront.lst', 'hodca.lst', 'roblox.lst', 'google_meet.lst'}
+# Do not exclude any services
+# ExcludeServices = {"telegram.lst", "cloudflare.lst", "google_ai.lst", "google_play.lst", 'hetzner.lst', 'ovh.lst', 'digitalocean.lst', 'cloudfront.lst', 'hodca.lst', 'roblox.lst', 'google_meet.lst'}
+ExcludeServices = {}
 
 def collect_files(src):
     files = []
@@ -59,7 +61,7 @@ def raw(src, out):
         for name in domains:
             file.write(f'{name}\n')
 
-def dnsmasq(src, out, remove={'google.com'}):
+def dnsmasq(src, out, remove=set()):
     domains = sorted(collect_domains(src) - remove)
 
     with open(f'{out}-dnsmasq-nfset.lst', 'w') as file:
