@@ -120,7 +120,7 @@ def compile_mrs(domains, name, mrs_dir='MRS', behavior='domain'):
         print(f"Compiled: {mrs_path}")
     except subprocess.CalledProcessError as e:
         print(f"Compile error {txt_path}: {e}")
-        sys.exit(1)
+        #sys.exit(1)
 
 def compile_srs(data, name, json_dir='JSON', srs_dir='SRS'):
     os.makedirs(json_dir, exist_ok=True)
