@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker build -t converter . && docker run --rm \       
+docker build -t converter . && docker run --rm \
         -v $(pwd)/src:/app/src \
         -v $(pwd)/Subnets:/app/Subnets \
         -v $(pwd)/Russia:/app/Russia \
