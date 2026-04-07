@@ -900,6 +900,7 @@ ipset=/reactflow.dev/vpn_domains
 ipset=/realbooru.com/vpn_domains
 ipset=/realist.online/vpn_domains
 ipset=/recraft.ai/vpn_domains
+ipset=/reddit.com/vpn_domains
 ipset=/reddxxx.com/vpn_domains
 ipset=/redgifs.com/vpn_domains
 ipset=/redis.io/vpn_domains

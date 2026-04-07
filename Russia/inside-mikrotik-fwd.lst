@@ -898,6 +898,7 @@
 /ip dns static add name=realbooru.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=realist.online type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=recraft.ai type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=reddit.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=reddxxx.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=redgifs.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=redis.io type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
