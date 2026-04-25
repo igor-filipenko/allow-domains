@@ -87,6 +87,7 @@
 /ip dns static add name=as6723.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=assets.heroku.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=atlassian.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=atlassian.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=atn.ua type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=att.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=attachments.f95zone.to type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -141,6 +142,7 @@
 /ip dns static add name=buf.build type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=bufferbloat.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=builds.parsec.app type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=bun.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=buymeacoffee.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=byteoversea.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=canva.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -228,6 +230,7 @@
 /ip dns static add name=crunchyroll.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=csskor.ill.in.ua type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=cub.red type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=curiousconcept.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=currenttime.tv type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=cursor-cdn.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=cursor.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -826,6 +829,7 @@
 /ip dns static add name=penguinrandomhouse.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=periscope.tv type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=pexels.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=phantom.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=phncdn.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=phncdn.com.sds.rncdn7.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=pimpletv.ru type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
