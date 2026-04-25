@@ -1,3 +1,4 @@
+ipset=/.app/vpn_domains
 ipset=/.io/vpn_domains
 ipset=/.ua/vpn_domains
 ipset=/10minutemail.com/vpn_domains
