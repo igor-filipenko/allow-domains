@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#
+# Use git diff --stat upstream/main -- .
+# to see what changed since the last merge.
+#
+
 docker build -t converter . && docker run --rm \
         -v $(pwd)/src:/app/src \
         -v $(pwd)/Subnets:/app/Subnets \
