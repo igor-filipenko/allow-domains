@@ -1,4 +1,5 @@
 ipset=/.app/vpn_domains
+ipset=/.dev/vpn_domains
 ipset=/.io/vpn_domains
 ipset=/.ua/vpn_domains
 ipset=/10minutemail.com/vpn_domains
@@ -430,6 +431,7 @@ ipset=/ghostrc.game.idtech.services/vpn_domains
 ipset=/gifyu.com/vpn_domains
 ipset=/git.new/vpn_domains
 ipset=/github.com/vpn_domains
+ipset=/githubusercontent.com/vpn_domains
 ipset=/glavred.info/vpn_domains
 ipset=/glavred.net/vpn_domains
 ipset=/global.fncstatic.com/vpn_domains

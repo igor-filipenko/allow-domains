@@ -1,4 +1,5 @@
 /ip dns static add name=*.app type=FWD address-list=allow-domains forward-to=localhost
+/ip dns static add name=*.dev type=FWD address-list=allow-domains forward-to=localhost
 /ip dns static add name=*.io type=FWD address-list=allow-domains forward-to=localhost
 /ip dns static add name=*.ua type=FWD address-list=allow-domains forward-to=localhost
 /ip dns static add name=10minutemail.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
