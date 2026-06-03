@@ -22,6 +22,11 @@ ASN_SERVICES = {
 
 ASN_TELEGRAM = ['44907', '59930', '62014', '62041', '211157']
 TELEGRAM = 'telegram.lst'
+# Subnets not announced via ASN but confirmed as Telegram infrastructure
+TELEGRAM_V4 = [
+    '5.28.192.0/18',  # TELEGRAM-MESSENGER-INFRA-NET
+]
+
 CLOUDFLARE = 'cloudflare.lst'
 CLOUDFRONT = 'cloudfront.lst'
 
@@ -30,6 +35,11 @@ DISCORD_VOICE_V4='https://iplist.opencck.org/?format=text&data=cidr4&site=discor
 DISCORD_VOICE_V6='https://iplist.opencck.org/?format=text&data=cidr6&site=discord.gg&site=discord.media'
 
 DISCORD = 'discord.lst'
+
+# todo: parse this dynamically!
+DISCORD_CF_V4 = [
+    '104.16.0.0/12',
+]
 
 TELEGRAM_CIDR_URL = 'https://core.telegram.org/resources/cidr.txt'
 
@@ -156,6 +166,7 @@ if __name__ == '__main__':
     # Discord voice
     print(f'Fetching {DISCORD}...')
     ipv4_discord, ipv6_discord = download_subnets(DISCORD_VOICE_V4, DISCORD_VOICE_V6)
+    ipv4_discord.extend(DISCORD_CF_V4)
     write_subnets_to_file(ipv4_discord, f'{IPv4_DIR}/{DISCORD}')
     write_subnets_to_file(ipv6_discord, f'{IPv6_DIR}/{DISCORD}')
 
@@ -163,7 +174,7 @@ if __name__ == '__main__':
     print(f'Fetching {TELEGRAM}...')
     ipv4_telegram_file, ipv6_telegram_file = download_subnets(TELEGRAM_CIDR_URL)
     ipv4_telegram_asn, ipv6_telegram_asn = fetch_asn_prefixes(ASN_TELEGRAM)
-    ipv4_telegram = subnet_summarization(ipv4_telegram_file + ipv4_telegram_asn)
+    ipv4_telegram = subnet_summarization(ipv4_telegram_file + ipv4_telegram_asn + TELEGRAM_V4)
     ipv6_telegram = subnet_summarization(ipv6_telegram_file + ipv6_telegram_asn)
     write_subnets_to_file(ipv4_telegram, f'{IPv4_DIR}/{TELEGRAM}')
     write_subnets_to_file(ipv6_telegram, f'{IPv6_DIR}/{TELEGRAM}')
