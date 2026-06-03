@@ -30,4 +30,5 @@ jobs:
         author_name: GitHub Action
         author_email: githubaction@githubaction.com
         message: 'Update subnet'
+        pull: '--rebase --autostash'
         push: true
