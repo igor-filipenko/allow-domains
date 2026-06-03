@@ -1,6 +1,7 @@
 ipset=/.app/vpn_domains
 ipset=/.dev/vpn_domains
 ipset=/.io/vpn_domains
+ipset=/.tg/vpn_domains
 ipset=/.ua/vpn_domains
 ipset=/10minutemail.com/vpn_domains
 ipset=/1337x.to/vpn_domains
@@ -1158,6 +1159,8 @@ ipset=/tmdb-image-prod.b-cdn.net/vpn_domains
 ipset=/tmdb.com/vpn_domains
 ipset=/tmdb.org/vpn_domains
 ipset=/ton.org/vpn_domains
+ipset=/tonapi.io/vpn_domains
+ipset=/toncenter.com/vpn_domains
 ipset=/toolbox.app/vpn_domains
 ipset=/torproject.org/vpn_domains
 ipset=/torrenteditor.com/vpn_domains

@@ -1,6 +1,7 @@
 /ip dns static add name=*.app type=FWD address-list=allow-domains forward-to=localhost
 /ip dns static add name=*.dev type=FWD address-list=allow-domains forward-to=localhost
 /ip dns static add name=*.io type=FWD address-list=allow-domains forward-to=localhost
+/ip dns static add name=*.tg type=FWD address-list=allow-domains forward-to=localhost
 /ip dns static add name=*.ua type=FWD address-list=allow-domains forward-to=localhost
 /ip dns static add name=10minutemail.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=1337x.to type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -1154,6 +1155,8 @@
 /ip dns static add name=tmdb.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=tmdb.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=ton.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=tonapi.io type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=toncenter.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=toolbox.app type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=torproject.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=torrenteditor.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost

@@ -1,6 +1,7 @@
 .app
 .dev
 .io
+.tg
 .ua
 10minutemail.com
 1337x.to
@@ -1158,6 +1159,8 @@ tmdb-image-prod.b-cdn.net
 tmdb.com
 tmdb.org
 ton.org
+tonapi.io
+toncenter.com
 toolbox.app
 torproject.org
 torrenteditor.com

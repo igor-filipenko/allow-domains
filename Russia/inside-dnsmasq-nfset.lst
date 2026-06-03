@@ -1,6 +1,7 @@
 nftset=/.app/4#inet#fw4#vpn_domains
 nftset=/.dev/4#inet#fw4#vpn_domains
 nftset=/.io/4#inet#fw4#vpn_domains
+nftset=/.tg/4#inet#fw4#vpn_domains
 nftset=/.ua/4#inet#fw4#vpn_domains
 nftset=/10minutemail.com/4#inet#fw4#vpn_domains
 nftset=/1337x.to/4#inet#fw4#vpn_domains
@@ -1158,6 +1159,8 @@ nftset=/tmdb-image-prod.b-cdn.net/4#inet#fw4#vpn_domains
 nftset=/tmdb.com/4#inet#fw4#vpn_domains
 nftset=/tmdb.org/4#inet#fw4#vpn_domains
 nftset=/ton.org/4#inet#fw4#vpn_domains
+nftset=/tonapi.io/4#inet#fw4#vpn_domains
+nftset=/toncenter.com/4#inet#fw4#vpn_domains
 nftset=/toolbox.app/4#inet#fw4#vpn_domains
 nftset=/torproject.org/4#inet#fw4#vpn_domains
 nftset=/torrenteditor.com/4#inet#fw4#vpn_domains

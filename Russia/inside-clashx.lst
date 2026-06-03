@@ -1,6 +1,7 @@
 DOMAIN-SUFFIX,.app
 DOMAIN-SUFFIX,.dev
 DOMAIN-SUFFIX,.io
+DOMAIN-SUFFIX,.tg
 DOMAIN-SUFFIX,.ua
 DOMAIN-SUFFIX,10minutemail.com
 DOMAIN-SUFFIX,1337x.to
@@ -1155,6 +1156,8 @@ DOMAIN-SUFFIX,tmdb-image-prod.b-cdn.net
 DOMAIN-SUFFIX,tmdb.com
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,ton.org
+DOMAIN-SUFFIX,tonapi.io
+DOMAIN-SUFFIX,toncenter.com
 DOMAIN-SUFFIX,toolbox.app
 DOMAIN-SUFFIX,torproject.org
 DOMAIN-SUFFIX,torrenteditor.com
