@@ -1,6 +1,9 @@
+DOMAIN-SUFFIX,.ag
 DOMAIN-SUFFIX,.app
 DOMAIN-SUFFIX,.dev
+DOMAIN-SUFFIX,.fi
 DOMAIN-SUFFIX,.io
+DOMAIN-SUFFIX,.sh
 DOMAIN-SUFFIX,.tg
 DOMAIN-SUFFIX,.ua
 DOMAIN-SUFFIX,10minutemail.com
@@ -783,6 +786,7 @@ DOMAIN-SUFFIX,mw2.wiki
 DOMAIN-SUFFIX,myanimelist.net
 DOMAIN-SUFFIX,mydoramy.club
 DOMAIN-SUFFIX,myheritage.com
+DOMAIN-SUFFIX,myinterviewpractice.com
 DOMAIN-SUFFIX,myjetbrains.com
 DOMAIN-SUFFIX,myparallels.com
 DOMAIN-SUFFIX,myqrcode.com

@@ -1,6 +1,9 @@
+ipset=/.ag/vpn_domains
 ipset=/.app/vpn_domains
 ipset=/.dev/vpn_domains
+ipset=/.fi/vpn_domains
 ipset=/.io/vpn_domains
+ipset=/.sh/vpn_domains
 ipset=/.tg/vpn_domains
 ipset=/.ua/vpn_domains
 ipset=/10minutemail.com/vpn_domains
@@ -786,6 +789,7 @@ ipset=/mw2.wiki/vpn_domains
 ipset=/myanimelist.net/vpn_domains
 ipset=/mydoramy.club/vpn_domains
 ipset=/myheritage.com/vpn_domains
+ipset=/myinterviewpractice.com/vpn_domains
 ipset=/myjetbrains.com/vpn_domains
 ipset=/myparallels.com/vpn_domains
 ipset=/myqrcode.com/vpn_domains
