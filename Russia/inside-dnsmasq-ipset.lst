@@ -1,5 +1,6 @@
 ipset=/.ag/vpn_domains
 ipset=/.app/vpn_domains
+ipset=/.cc/vpn_domains
 ipset=/.dev/vpn_domains
 ipset=/.fi/vpn_domains
 ipset=/.io/vpn_domains
