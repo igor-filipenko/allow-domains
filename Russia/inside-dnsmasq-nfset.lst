@@ -1288,6 +1288,7 @@ nftset=/toolbox.app/4#inet#fw4#vpn_domains
 nftset=/torproject.org/4#inet#fw4#vpn_domains
 nftset=/torrenteditor.com/4#inet#fw4#vpn_domains
 nftset=/torrentgalaxy.to/4#inet#fw4#vpn_domains
+nftset=/tradingview.com/4#inet#fw4#vpn_domains
 nftset=/trae.ai/4#inet#fw4#vpn_domains
 nftset=/trailblazer.me/4#inet#fw4#vpn_domains
 nftset=/trailhead.com/4#inet#fw4#vpn_domains

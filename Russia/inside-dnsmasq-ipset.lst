@@ -1288,6 +1288,7 @@ ipset=/toolbox.app/vpn_domains
 ipset=/torproject.org/vpn_domains
 ipset=/torrenteditor.com/vpn_domains
 ipset=/torrentgalaxy.to/vpn_domains
+ipset=/tradingview.com/vpn_domains
 ipset=/trae.ai/vpn_domains
 ipset=/trailblazer.me/vpn_domains
 ipset=/trailhead.com/vpn_domains
