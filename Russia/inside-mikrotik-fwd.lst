@@ -526,6 +526,7 @@
 /ip dns static add name=haydaygame.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=hbomax.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=hc-ping.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=hcaptcha.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=hchk.io type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=hd-rezka.tv type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=hdkinoteatr.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -985,6 +986,7 @@
 /ip dns static add name=pstmn.io type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=public.parsec.app type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=pvpessence.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=px-cloud.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=pypi.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=qodana.cloud type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=qoder.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -1360,6 +1362,7 @@
 /ip dns static add name=vagrantcloud.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=vecpea.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=veeam.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=vercel-storage.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=verificationacademy.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=verstka.media type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=vesma.one type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -1416,6 +1419,7 @@
 /ip dns static add name=windsurf.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=wise.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=wonderzine.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=workoscdn.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=wpengine.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=wunderground.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=wwnd.space type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost

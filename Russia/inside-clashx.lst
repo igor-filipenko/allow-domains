@@ -526,6 +526,7 @@ DOMAIN-SUFFIX,hashicorp.com
 DOMAIN-SUFFIX,haydaygame.com
 DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,hc-ping.com
+DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,hchk.io
 DOMAIN-SUFFIX,hd-rezka.tv
 DOMAIN-SUFFIX,hdkinoteatr.com
@@ -985,6 +986,7 @@ DOMAIN-SUFFIX,pstatic.net
 DOMAIN-SUFFIX,pstmn.io
 DOMAIN-SUFFIX,public.parsec.app
 DOMAIN-SUFFIX,pvpessence.com
+DOMAIN-SUFFIX,px-cloud.net
 DOMAIN-SUFFIX,pypi.org
 DOMAIN-SUFFIX,qodana.cloud
 DOMAIN-SUFFIX,qoder.com
@@ -1361,6 +1363,7 @@ DOMAIN-SUFFIX,v.vrv.co
 DOMAIN-SUFFIX,vagrantcloud.com
 DOMAIN-SUFFIX,vecpea.com
 DOMAIN-SUFFIX,veeam.com
+DOMAIN-SUFFIX,vercel-storage.com
 DOMAIN-SUFFIX,verificationacademy.com
 DOMAIN-SUFFIX,verstka.media
 DOMAIN-SUFFIX,vesma.one
@@ -1417,6 +1420,7 @@ DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,windsurf.com
 DOMAIN-SUFFIX,wise.com
 DOMAIN-SUFFIX,wonderzine.com
+DOMAIN-SUFFIX,workoscdn.com
 DOMAIN-SUFFIX,wpengine.com
 DOMAIN-SUFFIX,wunderground.com
 DOMAIN-SUFFIX,wwnd.space
