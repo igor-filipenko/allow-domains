@@ -1,6 +1,10 @@
+/ip dns static add name=*.ag type=FWD address-list=allow-domains forward-to=localhost
 /ip dns static add name=*.app type=FWD address-list=allow-domains forward-to=localhost
+/ip dns static add name=*.cc type=FWD address-list=allow-domains forward-to=localhost
 /ip dns static add name=*.dev type=FWD address-list=allow-domains forward-to=localhost
+/ip dns static add name=*.fi type=FWD address-list=allow-domains forward-to=localhost
 /ip dns static add name=*.io type=FWD address-list=allow-domains forward-to=localhost
+/ip dns static add name=*.sh type=FWD address-list=allow-domains forward-to=localhost
 /ip dns static add name=*.tg type=FWD address-list=allow-domains forward-to=localhost
 /ip dns static add name=*.ua type=FWD address-list=allow-domains forward-to=localhost
 /ip dns static add name=10minutemail.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -783,6 +787,7 @@
 /ip dns static add name=myanimelist.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=mydoramy.club type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=myheritage.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=myinterviewpractice.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=myjetbrains.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=myparallels.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=myqrcode.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
@@ -1279,6 +1284,7 @@
 /ip dns static add name=torproject.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=torrenteditor.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=torrentgalaxy.to type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=tradingview.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=trae.ai type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=trailblazer.me type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=trailhead.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost

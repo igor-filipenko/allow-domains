@@ -1,6 +1,10 @@
+DOMAIN-SUFFIX,.ag
 DOMAIN-SUFFIX,.app
+DOMAIN-SUFFIX,.cc
 DOMAIN-SUFFIX,.dev
+DOMAIN-SUFFIX,.fi
 DOMAIN-SUFFIX,.io
+DOMAIN-SUFFIX,.sh
 DOMAIN-SUFFIX,.tg
 DOMAIN-SUFFIX,.ua
 DOMAIN-SUFFIX,10minutemail.com
@@ -783,6 +787,7 @@ DOMAIN-SUFFIX,mw2.wiki
 DOMAIN-SUFFIX,myanimelist.net
 DOMAIN-SUFFIX,mydoramy.club
 DOMAIN-SUFFIX,myheritage.com
+DOMAIN-SUFFIX,myinterviewpractice.com
 DOMAIN-SUFFIX,myjetbrains.com
 DOMAIN-SUFFIX,myparallels.com
 DOMAIN-SUFFIX,myqrcode.com
@@ -1280,6 +1285,7 @@ DOMAIN-SUFFIX,toolbox.app
 DOMAIN-SUFFIX,torproject.org
 DOMAIN-SUFFIX,torrenteditor.com
 DOMAIN-SUFFIX,torrentgalaxy.to
+DOMAIN-SUFFIX,tradingview.com
 DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,trailblazer.me
 DOMAIN-SUFFIX,trailhead.com
