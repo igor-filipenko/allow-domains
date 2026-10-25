@@ -1424,6 +1424,7 @@ ipset=/windowsupdate.com/vpn_domains
 ipset=/windsurf.com/vpn_domains
 ipset=/wise.com/vpn_domains
 ipset=/wonderzine.com/vpn_domains
+ipset=/workos.com/vpn_domains
 ipset=/workoscdn.com/vpn_domains
 ipset=/wpengine.com/vpn_domains
 ipset=/wunderground.com/vpn_domains

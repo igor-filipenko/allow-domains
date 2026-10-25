@@ -1424,6 +1424,7 @@ nftset=/windowsupdate.com/4#inet#fw4#vpn_domains
 nftset=/windsurf.com/4#inet#fw4#vpn_domains
 nftset=/wise.com/4#inet#fw4#vpn_domains
 nftset=/wonderzine.com/4#inet#fw4#vpn_domains
+nftset=/workos.com/4#inet#fw4#vpn_domains
 nftset=/workoscdn.com/4#inet#fw4#vpn_domains
 nftset=/wpengine.com/4#inet#fw4#vpn_domains
 nftset=/wunderground.com/4#inet#fw4#vpn_domains
