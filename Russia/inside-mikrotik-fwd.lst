@@ -456,6 +456,7 @@
 /ip dns static add name=freemedia.io type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=freeones.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=friendlyelec.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=ftscrt.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=fwupd.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=fxnetworks.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=g2a.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
