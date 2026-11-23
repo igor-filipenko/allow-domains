@@ -404,6 +404,7 @@
 /ip dns static add name=fast-torrent.club type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=fast.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=fastpic.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=fatsecret.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=fb.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=fbcdn.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=fbsbx.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
