@@ -1166,6 +1166,7 @@ nftset=/snyk.io/4#inet#fw4#vpn_domains
 nftset=/sobesednik.com/4#inet#fw4#vpn_domains
 nftset=/solarwinds.com/4#inet#fw4#vpn_domains
 nftset=/sonara.ai/4#inet#fw4#vpn_domains
+nftset=/sonatype.com/4#inet#fw4#vpn_domains
 nftset=/sophos.com/4#inet#fw4#vpn_domains
 nftset=/sora.com/4#inet#fw4#vpn_domains
 nftset=/sotaproject.com/4#inet#fw4#vpn_domains

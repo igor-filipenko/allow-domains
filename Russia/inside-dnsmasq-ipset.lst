@@ -1166,6 +1166,7 @@ ipset=/snyk.io/vpn_domains
 ipset=/sobesednik.com/vpn_domains
 ipset=/solarwinds.com/vpn_domains
 ipset=/sonara.ai/vpn_domains
+ipset=/sonatype.com/vpn_domains
 ipset=/sophos.com/vpn_domains
 ipset=/sora.com/vpn_domains
 ipset=/sotaproject.com/vpn_domains
