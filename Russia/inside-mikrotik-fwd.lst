@@ -411,6 +411,7 @@
 /ip dns static add name=fedoraproject.org type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=feeds.feedburner.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=ficbook.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
+/ip dns static add name=figma.com type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=filebin.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=filmitorrent.net type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost
 /ip dns static add name=filmix.ac type=FWD address-list=allow-domains match-subdomain=yes forward-to=localhost

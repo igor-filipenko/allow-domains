@@ -411,6 +411,7 @@ ipset=/fbsbx.com/vpn_domains
 ipset=/fedoraproject.org/vpn_domains
 ipset=/feeds.feedburner.com/vpn_domains
 ipset=/ficbook.net/vpn_domains
+ipset=/figma.com/vpn_domains
 ipset=/filebin.net/vpn_domains
 ipset=/filmitorrent.net/vpn_domains
 ipset=/filmix.ac/vpn_domains
